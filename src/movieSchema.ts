@@ -17,4 +17,25 @@ export const movies: Movie[] = [
             },
         ],
     },
+    {
+        id: "2",
+        name: "Finding Nemo",
+        assets: [
+            {
+                name: 'Song',
+                assetType: 'audio',
+                assetUrl: 'https://www.youtube.com/watch?v=_inKs4eeHiI',
+            },
+            {
+                name: 'Trailer',
+                assetType: 'video',
+                assetUrl: 'https://www.youtube.com/watch?v=_inKs4eeHiI',
+            },
+            {
+                name: 'Po',
+                assetType: 'character',
+                assetUrl: 'https://www.youtube.com/watch?v=_inKs4eeHiI',
+            },
+        ],
+    },
 ];

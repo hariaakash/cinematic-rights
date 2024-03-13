@@ -38,7 +38,7 @@ class CinematicRights {
     @call({}) // This method changes the state, for which it cost gas
     edit_movie({ movie }: { movie: Movie }): void {
         near.log(`Saving movie ${movie.id} ${movie.name}`);
-        this.movies = this.movies.map((mov: Movie, index: number) => {
+        this.movies = this.movies.map((mov: Movie) => {
             return mov.id === movie.id ? movie : mov
         });
     }

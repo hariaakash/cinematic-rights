@@ -1,11 +1,11 @@
 {
-  "name": "hello_near",
+  "name": "cinematic-rights",
   "version": "1.0.0",
   "license": "(MIT AND Apache-2.0)",
   "type": "module",
   "scripts": {
-    "build": "near-sdk-js build src/contract.ts build/hello_near.wasm",
-    "test": "$npm_execpath run build && cd sandbox-ts && $npm_execpath run test -- -- ../build/hello_near.wasm",
+    "build": "near-sdk-js build src/movieContract.ts build/movie_contract.wasm",
+    "test": "$npm_execpath run build && cd sandbox-ts && $npm_execpath run test -- -- ../build/movie_contract.wasm",
     "postinstall": "cd sandbox-ts && $npm_execpath install"
   },
   "dependencies": {
